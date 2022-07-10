@@ -7,7 +7,7 @@ st.title("This program differs from the "
          "Rams of animals in the category of "
          "horse, rabbit, sheep, zebra, monkey, elephant.")
 
-# rasmni yuklash
+# upload image
 file = st.file_uploader("Upload image", type={'png', 'jpeg', 'jpg'})
 if file:
     st.image(file)
